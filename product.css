@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(203, 196, 189);
+}
+
+.my-4{
+    background-color: #1a1b1b;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-img-top {
+    width: 90%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #674747;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #28a745;
+}
+
+.add-to-cart {
+    background-color: #0c73e2;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+    text-align: end;
+}

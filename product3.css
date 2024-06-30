@@ -1,0 +1,13 @@
+body {
+    padding-top: 66px; 
+}
+
+.logo img {
+    height: 40px;
+    margin-left: 20px;
+    
+}
+.card-img-top {
+    height: 300px; 
+    object-fit: cover;
+}

@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #232f3e;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f3f3f3;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+.gift-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.gift-card {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.gift-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gift-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.gift-card p {
+    color: #777;
+    font-size: 14px;
+}
+
+.gift-card button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffa41c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.gift-card button:hover {
+    background-color: #ff8f00;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #232f3e;
+    color: white;
+}
